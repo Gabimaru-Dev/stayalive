@@ -5,7 +5,7 @@ const fetch = require('node-fetch');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const SELF_URL = 'https://your-render-url.onrender.com'; // Replace with your actual Render URL
+const SELF_URL = 'https://stayalive.onrender.com'; // Replace with your actual Render URL
 
 // Middleware
 app.use(express.static(path.join(__dirname, 'public')));
