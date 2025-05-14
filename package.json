@@ -1,1 +1,19 @@
-{} 
+{
+  "name": "telegram-bot-keeper",
+  "version": "1.0.0",
+  "description": "A service to keep your bot alive by pinging URLs every 5 minutes, including self-ping for Render.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "self-ping",
+    "keep-alive"
+  ],
+  "author": "Ayodele David (Gabimaru)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  }
+} 
